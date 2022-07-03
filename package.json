@@ -1,0 +1,25 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+	"license": "ISC",
+  "description": "This is a Premium Template for Discord Bots built in TypeScript. Too complete, useful and adaptative. More on READM.me.",
+  "main": "dist/index.ts",
+  "scripts": {
+    "init": "ts-node .",
+    "start": "yarn install;ts-node .",
+		"dev": "ts-node ."
+  },
+  "author": "https://github.com/erikhenriqueal",
+	"repository": {
+		"url": "https://github.com/erikhenriqueal/premium-template"
+	},
+  "dependencies": {
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.8.1",
+    "yarn": "^1.22.19"
+  }
+}
